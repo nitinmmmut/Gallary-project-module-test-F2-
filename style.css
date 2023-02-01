@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    margin: 10px auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+.dice{
+    display: flex;
+    gap: 1rem;
+
+}
+
+img:hover {
+    cursor:pointer ;
+    transform: scale(1.01);
+}
+
+.form-container {
+    text-align: center;
+    margin: 10px auto;
+    width: 1200px;
+}
+
+input {
+    width: 600px;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+}
+
+.hide {
+    display: none;
+}
